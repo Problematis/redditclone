@@ -5,4 +5,4 @@ def signup(request):
     if request.method == 'POST':
         print("the post worked")
     else:
-    return render(request, 'accounts/signup.html')
+        return render(request, 'accounts/signup.html')
